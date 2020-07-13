@@ -1,0 +1,7 @@
+C:\Users\alexa\source\repos\GoldBadgeProject\02_Challenge\bin\Debug\02_Challenge.exe.config
+C:\Users\alexa\source\repos\GoldBadgeProject\02_Challenge\bin\Debug\02_Challenge.exe
+C:\Users\alexa\source\repos\GoldBadgeProject\02_Challenge\bin\Debug\02_Challenge.pdb
+C:\Users\alexa\source\repos\GoldBadgeProject\02_Challenge\obj\Debug\02_Challenge.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\GoldBadgeProject\02_Challenge\obj\Debug\02_Challenge.exe
+C:\Users\alexa\source\repos\GoldBadgeProject\02_Challenge\obj\Debug\02_Challenge.pdb
+C:\Users\alexa\source\repos\GoldBadgeProject\02_Challenge\obj\Debug\02_Challenge.csprojAssemblyReference.cache
