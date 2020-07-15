@@ -1,0 +1,7 @@
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\04_Challenge\bin\Debug\04_Challenge.exe.config
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\04_Challenge\bin\Debug\04_Challenge.exe
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\04_Challenge\bin\Debug\04_Challenge.pdb
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\04_Challenge\obj\Debug\04_Challenge.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\04_Challenge\obj\Debug\04_Challenge.exe
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\04_Challenge\obj\Debug\04_Challenge.pdb
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\04_Challenge\obj\Debug\04_Challenge.csprojAssemblyReference.cache

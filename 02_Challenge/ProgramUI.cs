@@ -150,7 +150,7 @@ namespace _02_Challenge
         {
             Console.WriteLine("---- KOMODO CLAIMS ----");
             Console.WriteLine();
-            //List<Menu> listOfMenuItems = menuRepo.GetAllMenuContent();
+            
 
             Queue<Claim> claimQueue = claimsRepository.GetAllClaimContent();
             List<Claim> claimList = claimQueue.ToList();
@@ -185,7 +185,7 @@ namespace _02_Challenge
         private void DisplayItems(Claim claim)
         {
 
-            string convertDollars = String.Format("{0:C0}", claim.ClaimAmount);
+            string convertDollars = String.Format("{0:C2}", claim.ClaimAmount);
             var claimInfo = String.Format("{0,-9}{1,-7}{2,-30}{3,-10}{4,-15}{5,-15}{6,-15}",
                               claim.ClaimID, claim.ClaimType, claim.Description, convertDollars, claim.DateOfIncident.ToString("MM/dd/y"), claim.DateOfClaim.ToString("MM/dd/y"), claim.IsValid);
             Console.WriteLine(claimInfo);

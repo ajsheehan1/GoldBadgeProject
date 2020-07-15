@@ -1,0 +1,17 @@
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\03_Challenge_Test.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\03_Challenge_Test.pdb
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\03_Challenge.exe
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\03_Challenge.pdb
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\03_Challenge.exe.config
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\obj\Debug\03_Challenge_Test.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\obj\Debug\03_Challenge_Test.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\obj\Debug\03_Challenge_Test.csproj.CopyComplete
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\obj\Debug\03_Challenge_Test.dll
+C:\ElevenFiftyProjects\GoldBadge\GoldBadge_Project\GoldBadgeProject\03_Challenge_Test\obj\Debug\03_Challenge_Test.pdb

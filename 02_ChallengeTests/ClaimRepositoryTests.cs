@@ -46,7 +46,7 @@ namespace _02_ChallengeTests
         public void DeleteMenuContent_ShouldDeleteSelectedContent()
         {
             //Arrange
-            _02_Challenge.Claim content = new _02_Challenge.Claim(4,ClaimType.Car,"Turrible accident",400.44, new DateTime(2018, 04, 11), new DateTime(2018, 04, 12), true);
+            _02_Challenge.Claim content = new _02_Challenge.Claim(4,ClaimType.Car,"Turrible accident",400.44, new DateTime(2018, 04, 11), new DateTime(2018, 04, 12));
             ClaimsRepository repo = new ClaimsRepository();
             repo.AddClaimsToQueue(content);
 
