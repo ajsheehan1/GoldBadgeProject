@@ -75,7 +75,30 @@ namespace _04_Challenge
                 "2) Bowling \n" +
                 "3) Amusement Park \n" +
                 "4) Concert \n");
-            string userInput = Console.ReadLine();
+            string filteredViewInput ="";
+            int userInput = int.Parse(Console.ReadLine());
+            if (userInput == 1)
+            {
+                filteredViewInput = "Golf";
+            }
+            else if (userInput == 2)
+            {
+                filteredViewInput = "Bowling";
+
+            }
+            else if (userInput == 3)
+            {
+                filteredViewInput = "Amusement Park";
+            }
+            else if (userInput == 4)
+            {
+                filteredViewInput = "Concert";
+            }
+            else
+            {
+                Console.WriteLine("Sorry, no menu item matches your selection.");
+            }
+            
             Console.Clear();
 
             Console.WriteLine("---- KOMODO OUTINGS FILTERED VIEW----");
@@ -94,7 +117,7 @@ namespace _04_Challenge
             foreach (Outing outing in listofOutingItems)
             {
 
-                if (userInput == outing.TypeOfEvent.ToString())
+                if (filteredViewInput == outing.TypeOfEvent.ToString())
                 {
 
                     List<Outing> filteredList = new List<Outing>();

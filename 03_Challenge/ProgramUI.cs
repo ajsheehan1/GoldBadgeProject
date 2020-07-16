@@ -99,8 +99,7 @@ namespace _03_Challenge
                 } 
                 else
                 {
-                    running = false;
-                    Console.Clear();
+                  
                  }
 
                 doorNames.Add(roomID);
