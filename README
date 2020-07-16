@@ -1,0 +1,10 @@
+GOLDBADGE PROJECT README
+
+Challenge prompt 1 & 2: These were mostly created from Thursday 07/09 until Monday 07/13. The work we did during our lecture helped immensely as a reference for these challenges. Nothing really was too crazy, just a lot of careful construction of the code to make sure things were in the right place. Challenge two was good because my pair programming game involved a heavy usage of queue, so that helped a lot for project two. I went to bed having completed 1&2 thinking I would be able to get all of the challenges done.
+
+That is until I hit challenge #3. Challenge number three... was tough. Dictionaries haven't really been taught in the class and I can tell I need a lecture on that. I spent about a day trying to rack my brain how to make a dictionary with a String as the key and a List as the value. I finally got some things working then it hit me that I should probably collect the values as a list, then converr to a string to make the dictionary<String, String>. Thats what I spent the afternoon on Friday doing. Although I still have a little bit of time left before the challenge is due, I am doubting that I'll be able to put all the conditional statements in. Alas, the app works if you type in things correctly. I just simply ran out of time. I should have probably asked for help, because now I wasn't able to do any testing for challenge #3.
+
+At one point, I did, however reach a brick wall and decided to do challenge prompt #4 (which was really fun!) and that has been completed. So... there's extra credit there?
+
+In all seriousness, this was really fun to try to problem solve, I hope it gets a passing grade! 
+
