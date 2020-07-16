@@ -43,24 +43,7 @@ namespace _03_Challenge
         public static void Main(string[] args)
         {
 
-            /*Dictionary<string, List<string>> badgeDict = new Dictionary<string, List<string>>();
-
-            List<string> badgeList = new List<string>();
-
-            badgeList.Add("B7");
-            badgeList.Add("B5");
-
-            badgeDict.Add("1234", badgeList);
-            string concat = String.Join(",", badgeList.ToArray());
-
-            Console.WriteLine(concat);
-            Console.WriteLine($"BadgeID: 1234 RoomID = {badgeDict["1234"]}");
-
             
-
-          
-
-            Console.ReadLine();*/
 
             ProgramUI start = new ProgramUI();
             start.Run();

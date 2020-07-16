@@ -13,7 +13,7 @@ namespace _03_Challenge
         public void Run()
         {
             SeedDictionary();
-            badgeRepository.PrintDictionary();
+            
             StartMenu();
             
         }
@@ -25,7 +25,7 @@ namespace _03_Challenge
 
             while (running)
             {
-                Console.WriteLine("---- KOMODO INSURANCE ----");
+                Console.WriteLine("---- KOMODO SECURITY ----");
                 Console.WriteLine();
                 
                 Console.WriteLine("Hello Security Admin, what would you like to do? \n" +
@@ -44,12 +44,13 @@ namespace _03_Challenge
                         //We need to show all menu items
                         break;
                     case "2":
-                        
+                        EditABadge();
+                        Console.ReadLine();
                         Console.Clear();
                         // Edit a badge
                         break;
                     case "3":
-                        badgeRepository.PrintDictionary();
+                        PrintDictionary();
                         Console.ReadLine();
                         Console.Clear();
                         // List All Badges
@@ -72,10 +73,14 @@ namespace _03_Challenge
 
         public void AddABadge()
         {
+            Console.Clear();
+            Console.WriteLine("---- KOMODO SECURITY ----");
+            Console.WriteLine();
+
             List<string> doorNames = new List<string>();
-            Badge badgeNumber = new Badge();
+            
             Console.WriteLine("What is the BadgeID?");
-            badgeNumber.BadgeID = Console.ReadLine();
+            string badgeNumber = Console.ReadLine();
             // need to add 
             bool running = true;
             while (running)
@@ -94,56 +99,75 @@ namespace _03_Challenge
                 } 
                 else
                 {
+                    running = false;
                     Console.Clear();
                  }
-                doorNames.Add(roomID);
-            }
 
-            badgeRepository.AddContentToDictionary(badgeNumber,doorNames);
+                doorNames.Add(roomID);
+                
+            }
+            string roomsOnCard = string.Join(",", doorNames);
+            badgeRepository.AddContentToDictionary(badgeNumber,roomsOnCard);
         }
 
         private void SeedDictionary()
         {
-            Badge itemOne = new Badge();
+            
             List<string> itemOneList = new List<string>();
             itemOneList.Add("A7");
-            itemOne.BadgeID = "12345";
+            string itemOne = "12345";
+            string roomsOnCard = string.Join(",", itemOneList);
 
-
-            Badge itemTwo = new Badge();
+            
             List<string> itemTwoList = new List<string>();
             itemTwoList.Add("A1");
             itemTwoList.Add("A4");
             itemTwoList.Add("B1");
             itemTwoList.Add("B2");
-            itemTwo.BadgeID = "22345";
+            string itemTwo = "22345";
+            string roomsOnCard2 = string.Join(",", itemTwoList);
 
-            Badge itemThree = new Badge();
+            
             List<string> itemThreeList = new List<string>();
             itemThreeList.Add("A4");
             itemThreeList.Add("A5");
-            itemThree.BadgeID = "32345";
+            string itemThree = "32345";
+            string roomsOnCard3 = string.Join(",", itemThreeList);
 
-            badgeRepository.AddContentToDictionary(itemOne, itemOneList);
-            badgeRepository.AddContentToDictionary(itemTwo, itemTwoList);
-            badgeRepository.AddContentToDictionary(itemThree, itemThreeList);
+            badgeRepository.AddContentToDictionary(itemOne, roomsOnCard);
+            badgeRepository.AddContentToDictionary(itemTwo, roomsOnCard2);
+            badgeRepository.AddContentToDictionary(itemThree, roomsOnCard3);
         }
 
-        /*public void PrintDictionary()
+        public void PrintDictionary()
         {
-            //List<KeyValuePair<BadgeNumber, List<string>>> allItemsInList = badgeRepository.PrintDictionary();
+            Console.Clear();
 
-            var header = String.Format("{0,-9}{1,-12}",
-                              "BadgeID", "Room Access");
+            Console.WriteLine("---- KOMODO SECURITY ----");
+            Console.WriteLine();
+
+
+            var header = String.Format("{0,-20}{1,-20}",
+                              "BadgeID", "RoomAccess" );
             Console.WriteLine(header);
 
-            foreach (KeyValuePair<BadgeNumber, List<string>> keyValue in )
-            {
+            badgeRepository.PrintDictionary();
+           
+        }
 
-                Console.WriteLine("Key: {0}, Value: {1}",
-               keyValue.Key.BadgeID, keyValue.Value);
-            }
+        public void EditABadge()
+        {
 
-        }*/
+            Console.Clear();
+            Console.WriteLine("---- KOMODO SECURITY ----");
+            Console.WriteLine();
+
+            
+            //Need to delete, need to add
+
+            badgeRepository.CallDictionaryValue();
+
+
+        }
     }
 }
